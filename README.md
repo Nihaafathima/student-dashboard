@@ -1,16 +1,68 @@
-# React + Vite
+# Student Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern Student Dashboard built using React, HTML, CSS, and JavaScript. This project helps students manage academic activities like attendance, assignments, marks, fees, study materials, and placement opportunities through a clean user interface.
 
-Currently, two official plugins are available:
+## Features Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Authentication
+- Login functionality using LocalStorage
+- Logout functionality
 
-## React Compiler
+### Dashboard
+- Welcome section
+- Summary cards
+- Timetable
+- Attendance overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Student Modules
+- Profile Page
+- Attendance Management
+- Assignments Section
+- Study Materials
+- Marks & Grades
+- Fee Management
+- Placement Opportunities
 
-## Expanding the ESLint configuration
+### UI Features
+- Responsive design
+- Sidebar navigation
+- Top navbar
+- Progress bars
+- Cards and tables
+- Mobile-friendly layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- React Router DOM
+- React Icons
+
+
+## Project Structure
+
+src
+ ├── assets
+ ├── components
+ │     ├── Navbar.jsx
+ │     └── Sidebar.jsx
+ │
+ ├── pages
+ │     ├── Dashboard.jsx
+ │     ├── Profile.jsx
+ │     ├── Attendance.jsx
+ │     ├── Assignments.jsx
+ │     ├── StudyMaterials.jsx
+ │     ├── Marks.jsx
+ │     ├── Fees.jsx
+ │     ├── Placement.jsx
+ │     └── Login.jsx
+ │
+ ├── styles
+ │     └── dashboard.css
+ │
+ ├── App.jsx
+ └── main.jsx

@@ -29,51 +29,23 @@ function StudyMaterials() {
 
   return (
     <div className="dashboard-container">
-
       <Sidebar />
-
       <div className="main-content">
-
         <Navbar />
-
         <div className="section">
-
           <h2>Study Materials</h2>
-
-          <input
-            type="text"
-            placeholder="Search materials..."
-            className="material-search"
-          />
-
           <div className="materials-grid">
-
             {materials.map((item, index) => (
-
               <div className="material-card" key={index}>
-
                 <h3>{item.subject}</h3>
-
                 <p>{item.type}</p>
-
                 <p>{item.file}</p>
-
-               <button
-  className="download-btn"
-  onClick={() => alert("Downloading...")}
->
-  Download
-</button>
+               <button className="download-btn" onClick={() => alert("Downloading...")}> Download </button>
               </div>
-
             ))}
-
           </div>
-
         </div>
-
       </div>
-
     </div>
   );
 }

@@ -33,73 +33,37 @@ function Marks() {
 
   return (
     <div className="dashboard-container">
-
       <Sidebar />
-
       <div className="main-content">
-
         <Navbar />
-
         <div className="section">
-
           <h2>Marks & Grades</h2>
-
           <div className="cgpa-card">
-
             <h3>Current CGPA</h3>
-
             <h1>8.4</h1>
-
           </div>
-
           <table>
-
             <thead>
-
               <tr>
-
                 <th>Subject</th>
-
                 <th>Internal Marks</th>
-
                 <th>Semester Marks</th>
-
                 <th>Grade</th>
-
               </tr>
-
             </thead>
-
             <tbody>
-
               {marksData.map((item, index) => (
-
                 <tr key={index}>
-
                   <td>{item.subject}</td>
-
                   <td>{item.internal}</td>
-
                   <td>{item.semester}</td>
-
-                  <td>
-                    <span className="grade-badge">
-                      {item.grade}
-                    </span>
-                  </td>
-
+                  <td> <span className="grade-badge"> {item.grade} </span> </td>
                 </tr>
-
               ))}
-
             </tbody>
-
           </table>
-
         </div>
-
       </div>
-
     </div>
   );
 }
