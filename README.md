@@ -67,3 +67,17 @@ src
 ├── App.jsx
 └── main.jsx
 ```
+## Future Improvements
+
+- Backend integration using Java
+- MySQL database connectivity
+- REST API development using Java
+- Real authentication system
+- Placement application tracking
+- Real-time attendance updates
+
+---
+
+## Author
+
+Niha Fathima
