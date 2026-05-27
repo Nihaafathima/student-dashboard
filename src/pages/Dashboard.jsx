@@ -1,7 +1,7 @@
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import SummaryCard from "../components/SummaryCard";
-import "../styles/dashboard.css";
+import "../styles/Dashboard.css";
 
 function Dashboard() {
  

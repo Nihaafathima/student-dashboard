@@ -1,6 +1,6 @@
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
-import "../styles/dashboard.css";
+import "../styles/Dashboard.css";
 import profilePic from "../assets/niha.jpg";
 
 function Profile() {
