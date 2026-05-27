@@ -41,28 +41,29 @@ A responsive and modern Student Dashboard built using React, HTML, CSS, and Java
 - React Router DOM
 - React Icons
 
-
 ## Project Structure
 
+```plaintext
 src
- ├── assets
- ├── components
- │     ├── Navbar.jsx
- │     └── Sidebar.jsx
- │
- ├── pages
- │     ├── Dashboard.jsx
- │     ├── Profile.jsx
- │     ├── Attendance.jsx
- │     ├── Assignments.jsx
- │     ├── StudyMaterials.jsx
- │     ├── Marks.jsx
- │     ├── Fees.jsx
- │     ├── Placement.jsx
- │     └── Login.jsx
- │
- ├── styles
- │     └── dashboard.css
- │
- ├── App.jsx
- └── main.jsx
+├── assets
+├── components
+│   ├── Navbar.jsx
+│   └── Sidebar.jsx
+│
+├── pages
+│   ├── Dashboard.jsx
+│   ├── Profile.jsx
+│   ├── Attendance.jsx
+│   ├── Assignments.jsx
+│   ├── StudyMaterials.jsx
+│   ├── Marks.jsx
+│   ├── Fees.jsx
+│   ├── Placement.jsx
+│   └── Login.jsx
+│
+├── styles
+│   └── dashboard.css
+│
+├── App.jsx
+└── main.jsx
+```
