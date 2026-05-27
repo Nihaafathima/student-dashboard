@@ -67,6 +67,12 @@ src
 ├── App.jsx
 └── main.jsx
 ```
+
+## Demo Login Credentials
+
+Email: student@gmail.com  
+Password: 123456
+
 ## Future Improvements
 
 - Backend integration using Java
